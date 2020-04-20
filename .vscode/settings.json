@@ -1,0 +1,24 @@
+{
+  "eslint.enable": true,
+  "eslint.validate": [
+    "vue",
+    "html",
+    "javascript",
+    "typescript",
+    "javascriptreact",
+    "typescriptreact"
+  ],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#fff",
+    "activityBar.foreground": "#000",
+    "activityBar.inactiveForeground": "#000",
+    "activityBarBadge.background": "#999",
+    "activityBarBadge.foreground": "#fff",
+    "statusBar.background": "#fff",
+    "statusBarItem.hoverBackground": "#fff",
+    "statusBar.foreground": "#000"
+  }
+}
