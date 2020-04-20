@@ -1,13 +1,8 @@
 {
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
   "eslint.enable": true,
-  "eslint.validate": [
-    "vue",
-    "html",
-    "javascript",
-    "typescript",
-    "javascriptreact",
-    "typescriptreact"
-  ],
+  "eslint.validate": ["vue", "html", "javascript", "typescript"],
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
@@ -20,5 +15,6 @@
     "statusBar.background": "#fff",
     "statusBarItem.hoverBackground": "#fff",
     "statusBar.foreground": "#000"
-  }
+  },
+  "workbench.iconTheme": "vscode-icons"
 }
