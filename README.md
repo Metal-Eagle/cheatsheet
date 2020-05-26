@@ -37,3 +37,9 @@
    
 
 Look at the .vscode for workspace settings.json
+
+# Things to look @
+
+
+
+1. [NuxtJS](https://nuxtjs.org/)
