@@ -12,6 +12,13 @@ body {
   margin: 0;
 }
 
+:root {
+  --test: blue;
+}
+.test {
+  background-color: var(--test);
+}
+
 a {
   text-decoration: none;
   color: #000;
@@ -35,9 +42,8 @@ a:active {
   border: none;
 }
 .button:hover {
-    background-color: #555;
-    color: #fff;
-
+  background-color: #555;
+  color: #fff;
 }
 
 .box-1 {
@@ -58,12 +64,12 @@ a:active {
   margin: 20px 0;
 }
 
-.box-3{
-    border: 5px green double;
-    border-radius: 1em;
-    font-family: fantasy;
-    width: 90%;
-    text-align: center;
+.box-3 {
+  border: 5px green double;
+  border-radius: 1em;
+  font-family: fantasy;
+  width: 90%;
+  text-align: center;
 }
 
 .categories {
@@ -103,10 +109,10 @@ a:active {
   width: 100%;
 }
 
-.block{
-    float: left;
-    width: 33.3%;
-    border: 1px solid #ccc;
-    padding: 10px;
-    box-sizing: border-box;
+.block {
+  float: left;
+  width: 33.3%;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-sizing: border-box;
 }
