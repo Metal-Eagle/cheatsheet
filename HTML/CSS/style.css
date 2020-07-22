@@ -15,9 +15,6 @@ body {
 :root {
   --test: blue;
 }
-.test {
-  background-color: var(--test);
-}
 
 a {
   text-decoration: none;
@@ -70,6 +67,13 @@ a:active {
   font-family: fantasy;
   width: 90%;
   text-align: center;
+}
+
+.box-4 {
+  color: var(--test);
+  border: 3px dotted;
+  padding: 30px;
+  margin: 20px 0;
 }
 
 .categories {
