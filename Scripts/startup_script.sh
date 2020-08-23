@@ -1,5 +1,10 @@
 #!/bin/bash
 
+#Update Systeem
+sudo apt-get update -y && sudo apt-get install -y && sudo apt-get upgrade -y
+
+#Display existing Ip
+
 source /etc/lsb-release
 
 if [[ "$DISTRIB_ID" -ne "Ubuntu" ]]; then
