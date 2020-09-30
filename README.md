@@ -14,8 +14,6 @@
 
 7. [Githug cli](https://cli.github.com/) - GitHub CLI brings GitHub to your terminal
 
-   
-
 ## Visual Studio code extensions
 
 1. [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)
@@ -36,12 +34,10 @@
 
 9. [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 
-   
-
 Look at the .vscode for workspace settings.json
 
 # Things to look @
 
-
-
 1. [NuxtJS](https://nuxtjs.org/)
+
+2. [Choose Alicense](https://choosealicense.com/)
