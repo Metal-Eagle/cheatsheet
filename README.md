@@ -12,6 +12,8 @@
 
 6. [Vuejs cli](https://cli.vuejs.org/) - Standard Tooling for Vue.js Development
 
+7. [Githug cli](https://cli.github.com/) - GitHub CLI brings GitHub to your terminal
+
    
 
 ## Visual Studio code extensions
