@@ -32,6 +32,8 @@
 
 ## Visual Studio code extensions
 
+Do a git pull, and run './vsCode Plugins/vscodeinstall.ps1' to install all
+
 1. [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)
 
 2. [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
@@ -50,6 +52,16 @@
 
 9. [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 
+10. [IntelliSense for CSS class names in HTML](https://marketplace.visualstudio.com/items?itemName=Zignd.html-css-class-completion)
+
+11. [npm Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense)
+
+12. [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
+
+13. [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur)
+
+14. [vscode-sqlite](https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite)
+
 Look at the .vscode for workspace settings.json
 
 # Things to look @
@@ -57,3 +69,106 @@ Look at the .vscode for workspace settings.json
 1. [NuxtJS](https://nuxtjs.org/)
 
 2. [Choose Alicense](https://choosealicense.com/)
+
+Settings
+
+```json
+{
+  "explorer.openEditors.visible": 0,
+  "editor.snippetSuggestions": "top",
+  "emmet.showAbbreviationSuggestions": false,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.formatOnPaste": false,
+  "workbench.iconTheme": "vscode-icons",
+  "editor.fontLigatures": true,
+  "files.autoSave": "off",
+  "editor.detectIndentation": true,
+  "editor.minimap.enabled": false,
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.suggestSelection": "first",
+  "eslint.validate": [
+    {
+      "language": "vue",
+      "autoFix": true
+    },
+    {
+      "language": "typescript",
+      "autoFix": true
+    },
+    {
+      "language": "html",
+      "autoFix": true
+    },
+    {
+      "language": "javascript",
+      "autoFix": true
+    }
+  ],
+  "[javascript]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "liveshare.featureSet": "insiders",
+  "[vue]": {
+    "editor.defaultFormatter": "octref.vetur"
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "liveshare.anonymousGuestApproval": "accept",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.colorCustomizations": {},
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": ["comment", "comment.block"],
+        "settings": {
+          "fontStyle": "italic",
+          "foreground": "#ff1493"
+        }
+      },
+      {
+        "scope": [
+          "keyword.operator.logical",
+          "keyword.operator.arithmetic",
+          "keyword.operator.assignment",
+          "keyword.operator.bitwise"
+        ],
+        "settings": {
+          "fontStyle": ""
+        }
+      }
+    ]
+  },
+  "todo-tree.tree.showScanModeButton": false,
+  "cSpell.userWords": [
+    "deno",
+    "feathersjs",
+    "middlewares",
+    "socketio",
+    "upsert",
+    "upvote"
+  ],
+  "editor.fontSize": 15
+}
+```
